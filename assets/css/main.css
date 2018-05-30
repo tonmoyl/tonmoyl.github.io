@@ -2708,3 +2708,14 @@
 #logo-description {
 	color: teal;
 }
+
+.highlight > a:first-child {
+	height: 350px;
+	background-color: black;
+}
+
+.highlight a img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
