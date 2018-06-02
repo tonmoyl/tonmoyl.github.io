@@ -2719,3 +2719,15 @@
 	top: 50%;
 	transform: translateY(-50%);
 }
+
+.profile {
+	height: 400px;
+}
+
+.profile_pic {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	position: absolute;
+  left: 80px;
+}
