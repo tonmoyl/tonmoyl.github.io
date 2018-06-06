@@ -2274,11 +2274,34 @@
 
 /* Mobile Only */
 
+.profile_pic {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	position: absolute;
+  left: 80px;
+}
+
+#intro p {
+	line-height: 1.8;
+}
+
 	#navPanel, #titleBar {
 		display: none;
 	}
 
 	@media screen and (max-width: 736px) {
+
+		#profile-pic {
+			margin: auto;
+			display: block;
+			width: 80%;
+			clip-path: circle(100px at center);
+		}
+
+		.profile {
+			height: 200px;
+		}
 
 		/* Basic */
 
@@ -2720,14 +2743,14 @@
 	transform: translateY(-50%);
 }
 
-.profile {
+/* .profile {
 	height: 400px;
-}
+} */
 
-.profile_pic {
+/* .profile_pic {
 	display: flex;
 	justify-content: center;
 	margin-left: auto;
 	position: absolute;
   left: 80px;
-}
+} */
