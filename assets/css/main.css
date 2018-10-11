@@ -85,6 +85,11 @@
 		width: 960px;
 	}
 
+	/* My personal CSS */
+	.resume-link{
+		font-size: 30px;
+	}
+
 	@media screen and (min-width: 737px) {
 
 		.container.\31 25\25 {
