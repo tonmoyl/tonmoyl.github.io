@@ -1,0 +1,465 @@
+/* Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Verdana, Geneva, sans-serif;
+  letter-spacing: 0.25px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Headers */
+
+.h1 {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.middle-line {
+  background: #000;
+  height: 1px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.middle-line span {
+  background: white;
+  padding: 10px;
+  position: relative;
+  top: -10px;
+  left: 20px;
+}
+
+/* Components */
+
+.introduction-header {
+  margin-bottom: 30px;
+  color: white;
+  font-size: 24px;
+}
+
+.resume-link {
+  margin: 10px;
+}
+
+.resume-link a {
+  color: teal;
+  text-decoration: underline;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  border: 1px solid white;
+}
+
+.tab button:hover {
+  background-color: #4d8e7c;
+  cursor: pointer;
+}
+
+.tab .tablinks {
+  background-color: #6ed2b7;
+  color: white;
+  border-left: 0.5px solid #4d8e7c;
+  border-right: 0.5px solid #4d8e7c;
+  border-top: 0.5px solid #6ed2b7;
+  border-bottom: 0.5px solid #6ed2b7;
+  padding: 10px 20px;
+}
+
+.tab button.active {
+  background-color: #4d8e7c;
+}
+
+
+.tablinks:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-left: none;
+}
+
+.tablinks:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-right: none;
+}
+
+.project-item-list > li{
+  border-bottom: 2px solid #6ed2b7;
+}
+
+.project-item {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+@media(max-width: 480px) {
+  .project-item {
+    display: block;
+  }
+}
+
+.project-logo {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+@media(max-width: 480px) {
+  .project-logo {
+    margin: auto;
+  }
+}
+
+.project-logo img {
+  max-width: 80%;
+  max-height: 80%;
+  padding: 10%;
+}
+
+.project-description {
+  margin: 10px;
+  background-color: white;
+  width: calc(100% - 170px);
+}
+
+@media(max-width: 480px) {
+  .project-description {
+    width: calc(100% - 20px);
+  }
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media(max-width: 480px) {
+  .project-header {
+    display: none;
+  }
+}
+
+.project-title {
+  font-size: 24px;
+  color: #6ed2b7;
+  margin-bottom: 10px;
+}
+
+.project-header-links {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+}
+
+.project-link-item {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border-radius: 10%;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: background-color 1s ease;
+  margin: 0px 10px;
+}
+
+.project-link-item:hover {
+  color: #6ed2b7;
+}
+
+.project-header-links a,
+.project-header-links a:hover,
+.project-header-links a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+.project-link-item span,
+.project-tool-item span {
+  font-size: 8px;
+}
+
+.project-subtitle {
+  font-size: 18px;
+  color: darkgray;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.project-address {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.project-address .project-location {
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.project-time {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.project-text {
+  font-size: 12px;
+  color: gray;
+}
+
+.project-tools-header {
+  font-size: 18px;
+  color: #6ed2b7;
+  font-weight: 400;
+  margin: 6px 0;
+}
+
+.project-tools-list {
+  display: block;
+}
+
+.project-tool-item {
+  display: flex;
+  height: 34px;
+  width: 34px;
+  transition: background-color 1s ease;
+  border-radius: 10%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #f1f1f1;
+  border: 1px solid #6ed2b7;
+}
+
+.project-tool-item img {
+  width: 24px;
+  height: 24px;
+}
+
+.project-tools-list li {
+  margin: 4px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  width: 100%;
+  max-width: 200px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 4px 10px;
+  position: absolute;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.about-me {
+  background-color: #3e4353;
+  color: white;
+  height: 100%;
+  text-align: center;
+  padding: 40px;
+}
+
+.about-me .top-section, 
+.about-me .bottom-section {
+  padding: 30px 0px;
+}
+
+.about-me .title {
+  padding: 10px;
+}
+
+.about-me .subtext { 
+  color: gray;
+  font-size: 12px;
+}
+
+.about-me .list-header {
+  color: #6ed2b7;
+  font-weight: 600;
+}
+
+.contact-picture img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 10px solid teal;
+}
+
+.contact-links a{
+  font-size: 12px;
+  color: white;
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 50%;
+}
+
+.contact-item {
+  margin: 10px;
+}
