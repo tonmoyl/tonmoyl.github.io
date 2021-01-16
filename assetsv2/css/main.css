@@ -177,8 +177,12 @@ button:focus {
 }
 
 .resume-link a {
-  color: teal;
+  color: white;
   text-decoration: underline;
+}
+
+.resume-link a:hover {
+  color: #90c4c4;
 }
 
 .tab {
@@ -308,10 +312,12 @@ button:focus {
   justify-content: center;
   transition: background-color 1s ease;
   margin: 0px 10px;
+  padding-top: 4px;
 }
 
 .project-link-item:hover {
   color: #6ed2b7;
+  background-color: #dffffb;
 }
 
 .project-header-links a,
@@ -352,6 +358,7 @@ button:focus {
 
 .project-text {
   font-size: 12px;
+  line-height: 1.5;
   color: gray;
 }
 
@@ -442,8 +449,8 @@ button:focus {
 .contact-picture img {
   border-radius: 50%;
   width: 200px;
-  height: 200px;
-  border: 10px solid teal;
+  height: 175px;
+  border: 10px solid #90c4c4;
 }
 
 .contact-links a{
