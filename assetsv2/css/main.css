@@ -172,13 +172,27 @@ button:focus {
   font-size: 24px;
 }
 
+.resume-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
 .resume-link {
   margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
 }
 
 .resume-link a {
   color: white;
   text-decoration: underline;
+}
+
+.resume-link div {
+  color: white;
 }
 
 .resume-link a:hover {

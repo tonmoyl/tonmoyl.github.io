@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="27px" viewBox="0 0 98 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="logo/full/1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" stroke="#F35B5E" fill="#F35B5E" fill-rule="nonzero" points="22 1 22 7.21468927 15.3758389 7.21468927 15.3758389 26 7.55369128 26 7.55369128 7.21468927 1 7.21468927 1 1"></polygon>
+        <path d="M41.6545925,1 L51,26 L42.5239327,26 L41.2561449,22.2217514 L32.7076326,22.2217514 L31.4398448,26 L23,26 L32.38163,1 L41.6545925,1 Z M36.9818887,9.36864407 L34.6636481,16.3248588 L39.3001294,16.3248588 L36.9818887,9.36864407 Z" id="Combined-Shape" stroke="#F35B5E" fill="#F35B5E" fill-rule="nonzero"></path>
+        <polygon id="Path" stroke="#F35B5E" fill="#FFFFFF" fill-rule="nonzero" points="61.146789 20.0677966 69 20.0677966 69 26 53 26 53 1 61.146789 1"></polygon>
+        <polygon id="Path" stroke="#F35B5E" fill="#FFFFFF" fill-rule="nonzero" points="86.5755396 13.1468927 96 26 86.3956835 26 78.9856115 15.1596045 78.9856115 26 71 26 71 1 78.9856115 1 78.9856115 11.5579096 86.4676259 1 96 1"></polygon>
+    </g>
+</svg>

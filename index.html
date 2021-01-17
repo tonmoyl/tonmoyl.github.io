@@ -12,11 +12,31 @@
     />
   </head>
 
-  <div style="position: relative;">
-    <div style="background-color: #4d8e7c; position: absolute; height: 100%; width: 100%;">
-      <img src="images/programming_background.jpg" alt="Girl in a jacket" width="500" height="600" style="width: 100%; height: 100%; filter: blur(5px);-webkit-filter: blur(5px);">
+  <div style="position: relative">
+    <div
+      style="
+        background-color: #4d8e7c;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      "
+    >
+      <img
+        src="images/programming_background.jpg"
+        alt="Girl in a jacket"
+        width="500"
+        height="600"
+        style="
+          width: 100%;
+          height: 100%;
+          filter: blur(5px);
+          -webkit-filter: blur(5px);
+        "
+      />
     </div>
-    <div style="position: relative; color: black; height: 500px; overflow: hidden;">
+    <div
+      style="position: relative; color: black; height: 500px; overflow: hidden"
+    >
       <div
         style="
           position: absolute;
@@ -27,55 +47,261 @@
           text-align: center;
         "
       >
-        <div class="introduction-header" >
-          Nice to meet you! 
-          <br><br>
-          My name is
-        </div>
+        <div class="introduction-header">Hi, I'm Lifazul!</div>
         <div class="contact-picture">
-          <img id="profile-pic" src="./images/profile_pic.png" alt="Profile Pic">
+          <img
+            id="profile-pic"
+            src="./images/profile_pic.png"
+            alt="Profile Pic"
+          />
         </div>
 
-        <div class="h1" style="color: white; margin-top: 20px">Lifazul Tonmoy</div>
-        <div class="resume-link">
-          <a href="./resume.pdf" target="_blank">View Resume</a>
+        <div class="h1" style="color: white; margin-top: 20px">
+          Lifazul Tonmoy
+        </div>
+        <div class="resume-link-container">
+          <div class="resume-link">
+            <a href="./resume.pdf" target="_blank">Resume</a>
+            <div>|</div>
+            <a href="https://www.linkedin.com/in/lifazultonmoy/" target="_blank"
+              >LinkedIn</a
+            >
+            <div>|</div>
+            <a href="mailto:tonmoy.lifazul@gmail.com">Email</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="tab" style="display: flex; justify-content: center;">
-    <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
-    <button class="tablinks" onclick="openTab(event, 'Experience')">Work Experience</button>
-    <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
+  <div class="tab" style="display: flex; justify-content: center">
+    <button class="tablinks" onclick="openTab(event, 'Projects')">
+      Projects
+    </button>
+    <button class="tablinks" onclick="openTab(event, 'Experience')">
+      Work Experience
+    </button>
+    <button class="tablinks" onclick="openTab(event, 'Education')">
+      Education
+    </button>
   </div>
 
   <div class="tabcontent" id="Projects">
-    <div style="display: flex; justify-content: center; margin: 40px;">
-      <div class="middle-line" style="width: 500px;">
+    <div style="display: flex; justify-content: center; margin: 40px">
+      <div class="middle-line" style="width: 500px">
         <span class="h1">Projects</span>
       </div>
     </div>
 
     <ul class="project-item-list">
+      <!-- PROJECT ITEM 1: RecruitiFi -->
+      <li>
+        <div class="project-item">
+          <div class="project-logo" style="border: 4px solid #faa0a0">
+            <a href="https://www.talktalent.com/" target="_blank"
+              ><img
+                src="assetsv2/site_icons/talktalent.svg"
+                alt="talk_talent_icon"
+                style="color: gray; padding: 26px 6px;"
+            /></a>
+          </div>
+          <div class="project-description">
+            <div class="project-header">
+              <div class="project-title">Talk Talent</div>
+              <div class="project-header-links">
+                <a href="https://www.talktalent.com/" target="_blank">
+                  <div class="project-link-item">
+                    <i class="material-icons">public</i>
+                    <span>web</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="project-subtitle">
+              RecruitiFi
+              <span class="project-time"> February 2020 - PRESENT </span>
+            </div>
+            <div class="project-address">
+              <div class="project-location">New York, NY</div>
+            </div>
+            <div class="project-text">
+              TALK Talent is a social networking platform to connect hiring
+              managers and recruiting agencies. As another project for
+              RecruitiFi, this product caters to recruiting agencies to
+              socialize and connect through events/webinars, highlighting vendor
+              products and referencing important point of contacts in the field.
+              <br /><br />
+              Similar to RecruitiFi, we were responsibile for the frontend,
+              backend, and database management of this product. Since the
+              application is relatively new, we were tasked with incorporating a
+              large amount of features for the project. Some of my major work
+              were event creation form and implementing the home page.
+              <br /><br />
+              Creating the home page was my biggest feature as a software
+              engineer. This is because the home page contained a newsfeed
+              section, where user's activities were displayed. Although it was a
+              comprehensive project, I was able to complete it by referencing
+              documents and discussing with my teammates on the best strategy to
+              implement it. The final product can be seen live on the page
+              itself!
+            </div>
+
+            <div class="project-tools">
+              <div class="project-tools-header">Skills</div>
+              <ul class="project-tools-list">
+                <li class="tooltip">
+                  <div class="project-tool-item">
+                    <img
+                      src="assetsv2/tools_icons/server.svg"
+                      alt="canvas icon"
+                    />
+                    <span>backend</span>
+                    <span class="tooltiptext">Backend</span>
+                  </div>
+                </li>
+                <li class="tooltip">
+                  <div class="project-tool-item">
+                    <img
+                      src="assetsv2/tools_icons/frontend.svg"
+                      alt="css icon"
+                    />
+                    <span>frontend</span>
+                    <span class="tooltiptext">Frontend</span>
+                  </div>
+                </li>
+                <li class="tooltip">
+                  <div class="project-tool-item">
+                    <img
+                      src="assetsv2/tools_icons/database.svg"
+                      alt="webpack icon"
+                    />
+                    <span>database</span>
+                    <span class="tooltiptext">Migrations</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- PROJECT ITEM 1: RecruitiFi -->
+
+      <li>
+        <div class="project-item">
+          <div class="project-logo" style="border: 4px solid lightblue">
+            <a href="https://www.recruitifi.com/" target="_blank"
+              ><img
+                src="assetsv2/site_icons/recruitifi.jpeg"
+                alt="recruitifi_icon"
+                style="color: gray"
+            /></a>
+          </div>
+          <div class="project-description">
+            <div class="project-header">
+              <div class="project-title">RecruitiFi</div>
+              <div class="project-header-links">
+                <a href="https://www.recruitifi.com/" target="_blank">
+                  <div class="project-link-item">
+                    <i class="material-icons">public</i>
+                    <span>web</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="project-subtitle">
+              RecruitiFi
+              <span class="project-time"> April 2019 - PRESENT </span>
+            </div>
+            <div class="project-address">
+              <div class="project-location">New York, NY</div>
+            </div>
+            <div class="project-text">
+              RecruitiFi is a platform for a Vendor Management System. This tool
+              enables companies to utilize a community of expert recruiters to
+              quickly and efficiently fill any job opening, simplifying the gap
+              of finding highly qualified candidates. Here I will discuss the my
+              responsibilities and features for the platform.
+              <br /><br />
+              As fullstack engineers, we were tasked with all of the aspects of
+              RecruitiFi as a platform. This meant we have experience with all
+              of the features that are currently implemented, ranging from doing
+              end-to-end testing, backend queries, database management and data
+              requests as some of our daily activities.
+              <br /><br />
+              We collectively revamped the site to handle the agency side. This
+              required extensive work and some of my responsibilities included
+              overhauling the frontend state management to handle a different
+              section of the site along with the creation of recruiter side
+              forms/pages for their core features. The work amongst the
+              teammates and me have lead to major improvements and expanded the
+              site to provide several core features!
+            </div>
+
+            <div class="project-tools">
+              <div class="project-tools-header">Skills</div>
+              <ul class="project-tools-list">
+                <li class="tooltip">
+                  <div class="project-tool-item">
+                    <img
+                      src="assetsv2/tools_icons/server.svg"
+                      alt="canvas icon"
+                    />
+                    <span>backend</span>
+                    <span class="tooltiptext">Backend</span>
+                  </div>
+                </li>
+                <li class="tooltip">
+                  <div class="project-tool-item">
+                    <img
+                      src="assetsv2/tools_icons/frontend.svg"
+                      alt="css icon"
+                    />
+                    <span>frontend</span>
+                    <span class="tooltiptext">Frontend</span>
+                  </div>
+                </li>
+                <li class="tooltip">
+                  <div class="project-tool-item">
+                    <img
+                      src="assetsv2/tools_icons/testing.svg"
+                      alt="javascript icon"
+                    />
+                    <span>testing</span>
+                    <span class="tooltiptext">Unit & End-to-end testing</span>
+                  </div>
+                </li>
+                <li class="tooltip">
+                  <div class="project-tool-item">
+                    <img
+                      src="assetsv2/tools_icons/database.svg"
+                      alt="webpack icon"
+                    />
+                    <span>database</span>
+                    <span class="tooltiptext">Migrations</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+
       <!-- PROJECT ITEM 1: Wondernote -->
       <li>
         <div class="project-item">
-          <div class="project-logo" style="border: 4px solid green;">
+          <div class="project-logo" style="border: 4px solid green">
             <a
               href="https://wondernote-aa.herokuapp.com/#/landing"
               target="_blank"
               ><img
                 src="assetsv2/site_icons/wondernote.png"
                 alt="wondernote_icon"
-                style="color: gray;"
+                style="color: gray"
             /></a>
           </div>
           <div class="project-description">
             <div class="project-header">
-              <div class="project-title">
-                Wondernote
-              </div>
+              <div class="project-title">Wondernote</div>
               <div class="project-header-links">
                 <a
                   href="https://wondernote-aa.herokuapp.com/#/landing"
@@ -96,21 +322,36 @@
             </div>
             <div class="project-subtitle">
               App Academy
-              <span class="project-time">
-                MAY 2018 - SEPTEMBER 2018
-              </span>
+              <span class="project-time"> MAY 2018 - SEPTEMBER 2018 </span>
             </div>
             <div class="project-address">
-              <div class="project-location">
-                New York, NY
-              </div>
+              <div class="project-location">New York, NY</div>
             </div>
             <div class="project-text">
-              Wondernote is a single-page web application inspired by the cloud-storage app: Evernote. The core functionality of this project was completed over two-three weeks (encompassing user, session, note and notebook functionality). Users are allowed to make an account, create notes (include rich-text editing), and sort their notebooks (notebooks consist of notes). Wondernote provides an elegant way to store all your information in the single page app by using drawers and sidebars to store information.
-              <br><br>
-              As the person tasked with building a full stack application from scratch, I thought this project seemed overly ambitious. Each of the condensed materials that we learned in App Academy in the past 7 weeks needed to be combined together to create this full project.
-              <br><br>
-              Skeptical at first, I decided to take this process one step at a time. I built the Rails framework and created the basic endpoints for an auth login. I pushed forward and made calls to the endpoint through the Redux flow when making CRUD actions to the backend. I implemented CSS and animations to make the process smoother. I spent more time revising the UI of the application and gave it a theme of my own. The end result: an application that had similar functionality as Evernote!
+              Wondernote is a single-page web application inspired by the
+              cloud-storage app: Evernote. The core functionality of this
+              project was completed over two-three weeks (encompassing user,
+              session, note and notebook functionality). Users are allowed to
+              make an account, create notes (include rich-text editing), and
+              sort their notebooks (notebooks consist of notes). Wondernote
+              provides an elegant way to store all your information in the
+              single page app by using drawers and sidebars to store
+              information.
+              <br /><br />
+              As the person tasked with building a full stack application from
+              scratch, I thought this project seemed overly ambitious. Each of
+              the condensed materials that we learned in App Academy in the past
+              7 weeks needed to be combined together to create this full
+              project.
+              <br /><br />
+              Skeptical at first, I decided to take this process one step at a
+              time. I built the Rails framework and created the basic endpoints
+              for an auth login. I pushed forward and made calls to the endpoint
+              through the Redux flow when making CRUD actions to the backend. I
+              implemented CSS and animations to make the process smoother. I
+              spent more time revising the UI of the application and gave it a
+              theme of my own. The end result: an application that had similar
+              functionality as Evernote!
             </div>
 
             <div class="project-tools">
@@ -189,19 +430,17 @@
       <!-- PROJECT ITEM 2: Smart Rocket -->
       <li>
         <div class="project-item">
-          <div class="project-logo" style="border: 4px solid darkred;">
+          <div class="project-logo" style="border: 4px solid darkred">
             <a href="http://lifazul.com/smart_rocket/" target="_blank"
               ><img
                 src="assetsv2/site_icons/smartrocket.png"
                 alt="smart_rocket_icon"
-                style="color: gray;"
+                style="color: gray"
             /></a>
           </div>
           <div class="project-description">
             <div class="project-header">
-              <div class="project-title">
-                Smart Rocket
-              </div>
+              <div class="project-title">Smart Rocket</div>
               <div class="project-header-links">
                 <a href="http://lifazul.com/smart_rocket/" target="_blank">
                   <div class="project-link-item">
@@ -222,21 +461,36 @@
             </div>
             <div class="project-subtitle">
               App Academy
-              <span class="project-time">
-                MAY 2018 - SEPTEMBER 2018
-              </span>
+              <span class="project-time"> MAY 2018 - SEPTEMBER 2018 </span>
             </div>
             <div class="project-address">
-              <div class="project-location">
-                New York, NY
-              </div>
+              <div class="project-location">New York, NY</div>
             </div>
             <div class="project-text">
-              Smart Rocket is a simple Javascript demonstration which handles finding a path from a source and a target. The concept is for the rockets to break after hitting a barrier and fire rockets traveling in the opposite direction before collision. Once a rocket finally reaches its target, the Smart Rocket is formed. It knows the direction to get to the target and travels the path to reach the target.
-              <br><br>
-              This project represents one of my first personal projects as a developer. Despite the simplicity of the demonstration, there were some interesting concepts used to make this project run smoothly. I used a tree to create a history of the vector directions that the rockets have taken. When the colliding rocket finally hits the target, a Smart Rocket is created. The colliding rocket’s direction of travel is saved in each parent node, thus resulting in a list of vectors the rockets took to reach its target.
-              <br><br>
-              There are several ways to improve Smart Rocket. Each rocket after collision creates random sub-rockets traveling in random directions. It would improve efficiency if we reduce the randomness and make it travel in slight deviations of a known path. Another interesting concept is to create traits of its ancestors through some level of machine learning. There are a lot of interesting directions to take this project!
+              Smart Rocket is a simple Javascript demonstration which handles
+              finding a path from a source and a target. The concept is for the
+              rockets to break after hitting a barrier and fire rockets
+              traveling in the opposite direction before collision. Once a
+              rocket finally reaches its target, the Smart Rocket is formed. It
+              knows the direction to get to the target and travels the path to
+              reach the target.
+              <br /><br />
+              This project represents one of my first personal projects as a
+              developer. Despite the simplicity of the demonstration, there were
+              some interesting concepts used to make this project run smoothly.
+              I used a tree to create a history of the vector directions that
+              the rockets have taken. When the colliding rocket finally hits the
+              target, a Smart Rocket is created. The colliding rocket’s
+              direction of travel is saved in each parent node, thus resulting
+              in a list of vectors the rockets took to reach its target.
+              <br /><br />
+              There are several ways to improve Smart Rocket. Each rocket after
+              collision creates random sub-rockets traveling in random
+              directions. It would improve efficiency if we reduce the
+              randomness and make it travel in slight deviations of a known
+              path. Another interesting concept is to create traits of its
+              ancestors through some level of machine learning. There are a lot
+              of interesting directions to take this project!
             </div>
 
             <div class="project-tools">
@@ -288,19 +542,17 @@
       <!-- PROJECT ITEM 3: DOMnoy -->
       <li>
         <div class="project-item">
-          <div class="project-logo" style="border: 4px solid orange;">
+          <div class="project-logo" style="border: 4px solid orange">
             <a href="http://lifazul.com/DOMnoy_tictactoe/" target="_blank"
               ><img
                 src="assetsv2/site_icons/domnoy.png"
                 alt="domnoy_icon"
-                style="color: gray;"
+                style="color: gray"
             /></a>
           </div>
           <div class="project-description">
             <div class="project-header">
-              <div class="project-title">
-                DOMnoy Tic Tac Toe
-              </div>
+              <div class="project-title">DOMnoy Tic Tac Toe</div>
               <div class="project-header-links">
                 <a href="http://lifazul.com/DOMnoy_tictactoe/" target="_blank">
                   <div class="project-link-item">
@@ -321,21 +573,27 @@
             </div>
             <div class="project-subtitle">
               App Academy
-              <span class="project-time">
-                MAY 2018 - SEPTEMBER 2018
-              </span>
+              <span class="project-time"> MAY 2018 - SEPTEMBER 2018 </span>
             </div>
             <div class="project-address">
-              <div class="project-location">
-                New York, NY
-              </div>
+              <div class="project-location">New York, NY</div>
             </div>
             <div class="project-text">
-              DOMnoy is a project centered around creating a library that emulates jQuery. This tool is known to simplify a lot of common tasks in Javascript by providing functions that developers can use with small lines of code.
-              <br><br>
-              The purpose of DOMnoy is to understand how popular libraries are created and the costs that might be associated with using these tools. Although jQuery makes the code much simpler, it was interesting to find out that most of the common features in the library can be utilized through Vanilla Javascript. 
-              <br><br>
-              DOMnoy currently support several similar functions that jQuery has. Some of the features are searching through the HTML DOM for elements, manipulating HTML elements, adding/removing styling elements, appending strings, and setting attributes. 
+              DOMnoy is a project centered around creating a library that
+              emulates jQuery. This tool is known to simplify a lot of common
+              tasks in Javascript by providing functions that developers can use
+              with small lines of code.
+              <br /><br />
+              The purpose of DOMnoy is to understand how popular libraries are
+              created and the costs that might be associated with using these
+              tools. Although jQuery makes the code much simpler, it was
+              interesting to find out that most of the common features in the
+              library can be utilized through Vanilla Javascript.
+              <br /><br />
+              DOMnoy currently supports several similar functions that jQuery
+              has. Some of the features are searching through the HTML DOM for
+              elements, manipulating HTML elements, adding/removing styling
+              elements, appending strings, and setting attributes.
             </div>
 
             <div class="project-tools">
@@ -370,8 +628,8 @@
   </div>
 
   <div class="tabcontent" id="Experience">
-    <div style="display: flex; justify-content: center; margin: 40px;">
-      <div class="middle-line" style="width: 500px;">
+    <div style="display: flex; justify-content: center; margin: 40px">
+      <div class="middle-line" style="width: 500px">
         <span class="h1">Experience</span>
       </div>
     </div>
@@ -379,19 +637,17 @@
       <!-- Work Experience ITEM 1: RecruitiFi -->
       <li>
         <div class="project-item">
-          <div class="project-logo" style="border: 4px solid lightblue;">
+          <div class="project-logo" style="border: 4px solid lightblue">
             <a href="https://www.recruitifi.com/" target="_blank"
               ><img
                 src="assetsv2/site_icons/recruitifi.jpeg"
                 alt="smart_rocket_icon"
-                style="color: gray;"
+                style="color: gray"
             /></a>
           </div>
           <div class="project-description">
             <div class="project-header">
-              <div class="project-title">
-                Fullstack Engineer
-              </div>
+              <div class="project-title">Fullstack Engineer</div>
               <div class="project-header-links">
                 <a href="https://www.recruitifi.com/" target="_blank">
                   <div class="project-link-item">
@@ -403,21 +659,25 @@
             </div>
             <div class="project-subtitle">
               RecruitiFi
-              <span class="project-time">
-                MAY 2018 - SEPTEMBER 2018
-              </span>
+              <span class="project-time"> April 2019 - PRESENT </span>
             </div>
             <div class="project-address">
-              <div class="project-location">
-                New York, NY
-              </div>
+              <div class="project-location">New York, NY</div>
             </div>
             <div class="project-text">
-              RecruitiFi is a platform for a Vendor Management System. This tool enables companies to utilize a community of expert recruiters to quickly and efficiently fill any job opening, simplifying the gap of finding highly qualified candidates.
-              <br><br>
-              Being a developer in RecruitiFi, I collaborated along with a cohesive team that handled the majority of application’s main functions, which encompassed tasks in the frontend, backend, testing and database. The team all worked to completely overhaul the previous version of the site and transition it towards a more modern framework.
-              <br><br>
-              I believe the quality of our work and development has been successful in terms of individual growth and improvements in the application. We have the right balance when it comes to enjoying each other’s company and the level of productivity that is expected of us. Career-wise, this is the first time writing production ready code, which helped me understand the best practices that limit errors and make the application scalable. The team at RecruitiFi consists of some of the brightest people I know and we collectively grew and created meaningful changes to the application!
+              RecruitiFi is a startup dedicated to connect hiring managers and
+              recruiting agencies. Being a developer in RecruitiFi, I
+              collaborated along with a cohesive team that handled the majority
+              of application’s main functions, which encompassed tasks in the
+              frontend, backend, testing and database. The team all worked to
+              completely overhaul the previous versions of the site and develop
+              a new product feature in TALK Talent.
+              <br /><br />
+              I believe the quality of our work and development has been
+              successful in terms of individual growth and improvements in the
+              application. Working on the frontend and backend expanded my
+              overall knowledge in development while also fostering strong bonds
+              amongst teammates to tackle these big product features!
             </div>
 
             <div class="project-tools">
@@ -435,7 +695,10 @@
                 </li>
                 <li class="tooltip">
                   <div class="project-tool-item">
-                    <img src="assetsv2/tools_icons/frontend.svg" alt="css icon" />
+                    <img
+                      src="assetsv2/tools_icons/frontend.svg"
+                      alt="css icon"
+                    />
                     <span>frontend</span>
                     <span class="tooltiptext">Frontend</span>
                   </div>
@@ -466,22 +729,20 @@
         </div>
       </li>
 
-      <!-- Work Experience ITEM 1: App Academy -->
+      <!-- Work Experience ITEM 2: App Academy -->
       <li>
         <div class="project-item">
-          <div class="project-logo" style="border: 4px solid darkgray;">
+          <div class="project-logo" style="border: 4px solid darkgray">
             <a href="https://www.appacademy.io/" target="_blank"
               ><img
                 src="assetsv2/site_icons/appacademy.jpg"
                 alt="smart_rocket_icon"
-                style="color: gray;"
+                style="color: gray"
             /></a>
           </div>
           <div class="project-description">
             <div class="project-header">
-              <div class="project-title">
-                Technical Admissions Interviewer
-              </div>
+              <div class="project-title">Technical Admissions Interviewer</div>
               <div class="project-header-links">
                 <a href="https://www.appacademy.io/" target="_blank">
                   <div class="project-link-item">
@@ -493,21 +754,34 @@
             </div>
             <div class="project-subtitle">
               App Academy
-              <span class="project-time">
-                MAY 2018 - SEPTEMBER 2018
-              </span>
+              <span class="project-time"> MAY 2018 - SEPTEMBER 2018 </span>
             </div>
             <div class="project-address">
-              <div class="project-location">
-                New York, NY
-              </div>
+              <div class="project-location">New York, NY</div>
             </div>
             <div class="project-text">
-              App Academy, located both in San Francisco and New York, is a highly rated coding school designed to help its students learn tech and coding in a rigid, comprehensive 12-week program. The curriculum is known to help students kick start their tech careers by providing strong foundational knowledge while building on each concept to round out a qualified developer. The curriculum is not catered to every learning type, and it became increasingly important to select the right students who would succeed in this course.
-              <br><br>
-              This was an integral part time job that kick started my career as a Software Developer. Handling the interview process solidified my understanding of coding concepts and strengthened my communication skills to effectively explain ideas and concepts. Alternatively, it was also interesting to learn how students vary in their form of thinking and approach when given similar problems.
-              <br><br>
-              The continual programs for App Academy both helped them and me grow into better developers. Also, It was great seeing these admitted students over the months to see how much their thinking evolved and grew as they transitioned into an important part of their careers.
+              App Academy, located both in San Francisco and New York, is a
+              highly rated coding school designed to help its students learn
+              tech and coding in a rigid, comprehensive 12-week program. The
+              curriculum is known to help students kick start their tech careers
+              by providing strong foundational knowledge while building on each
+              concept to round out a qualified developer. The curriculum is not
+              catered to every learning type, and it became increasingly
+              important to select the right students who would succeed in this
+              course.
+              <br /><br />
+              This was an integral part time job that kick started my career as
+              a Software Developer. Handling the interview process solidified my
+              understanding of coding concepts and strengthened my communication
+              skills to effectively explain ideas and concepts. Alternatively,
+              it was also interesting to learn how students vary in their form
+              of thinking and approach when given similar problems.
+              <br /><br />
+              The continual programs for App Academy both helped them and me
+              grow into better developers. Also, It was great seeing these
+              admitted students over the months to see how much their thinking
+              evolved and grew as they transitioned into an important part of
+              their careers.
             </div>
 
             <div class="project-tools">
@@ -546,24 +820,27 @@
         </div>
       </li>
 
-    <!-- Work Experience ITEM 3: Department of Design and Construction -->
+      <!-- Work Experience ITEM 3: Department of Design and Construction -->
       <li>
         <div class="project-item">
-          <div class="project-logo" style="border: 4px solid navy;">
-            <a href="https://www.recruitifi.com/" target="_blank"
+          <div class="project-logo" style="border: 4px solid navy">
+            <a
+              href="https://www1.nyc.gov/site/ddc/projects/projects.page"
+              target="_blank"
               ><img
                 src="assetsv2/site_icons/ddc.png"
                 alt="smart_rocket_icon"
-                style="color: gray;"
+                style="color: gray"
             /></a>
           </div>
           <div class="project-description">
             <div class="project-header">
-              <div class="project-title">
-                Project Manager
-              </div>
+              <div class="project-title">Project Manager</div>
               <div class="project-header-links">
-                <a href="https://www.recruitifi.com/" target="_blank">
+                <a
+                  href="https://www1.nyc.gov/site/ddc/projects/projects.page"
+                  target="_blank"
+                >
                   <div class="project-link-item">
                     <i class="material-icons">public</i>
                     <span>web</span>
@@ -573,21 +850,32 @@
             </div>
             <div class="project-subtitle">
               Department of Design and Construction
-              <span class="project-time">
-                MAY 2018 - SEPTEMBER 2018
-              </span>
+              <span class="project-time"> MAY 2018 - SEPTEMBER 2018 </span>
             </div>
             <div class="project-address">
-              <div class="project-location">
-                New York, NY
-              </div>
+              <div class="project-location">New York, NY</div>
             </div>
             <div class="project-text">
-              The Department of Design and Construction is the largest project management company for the New York City government that mainly handles over thousands of projects related to libraries, courts, and other civic facilities.
-              <br><br>
-              My focus at this job was related to water contamination in the groundwater level. As a project manager, coordination with major sections of the departments were key in order for the project to be fully successful. Engineering audit, accounting team, client, and laborers all had different values and agendas and it was important to realize the varying parties inputs and perspectives. As a project manager, I had to bridge these people together to make sure they understand the steps required so that all the parties can be successful in their fields. 
-              <br><br>
-              The experience was very good in becoming a project manager, allowing me to develop communication and management skills. DDC has a collection of PMs who are very successful in their profession and I am happy to have learned a lot of these skills that can transfer over to any professional setting!
+              The Department of Design and Construction is the largest project
+              management company for the New York City government that mainly
+              handles over thousands of projects related to libraries, courts,
+              and other civic facilities.
+              <br /><br />
+              My focus at this job was related to water contamination in the
+              groundwater level. As a project manager, coordination with major
+              sections of the departments were key in order for the project to
+              be fully successful. Engineering audit, accounting team, client,
+              and laborers all had different values and agendas and it was
+              important to realize the varying parties inputs and perspectives.
+              As a project manager, I had to bridge these people together to
+              make sure they understand the steps required so that all the
+              parties can be successful in their fields.
+              <br /><br />
+              The experience was very good in becoming a project manager,
+              allowing me to develop communication and management skills. DDC
+              has a collection of PMs who are very successful in their
+              profession and I am happy to have learned a lot of these skills
+              that can transfer over to any professional setting!
             </div>
 
             <div class="project-tools">
@@ -605,7 +893,10 @@
                 </li>
                 <li class="tooltip">
                   <div class="project-tool-item">
-                    <img src="assetsv2/tools_icons/schedule.svg" alt="css icon" />
+                    <img
+                      src="assetsv2/tools_icons/schedule.svg"
+                      alt="css icon"
+                    />
                     <span>schedule</span>
                     <span class="tooltiptext">Scheduling</span>
                   </div>
@@ -615,13 +906,12 @@
           </div>
         </div>
       </li>
-
     </ul>
   </div>
 
   <div class="tabcontent" id="Education">
-    <div style="display: flex; justify-content: center; margin: 40px;">
-      <div class="middle-line" style="width: 500px;">
+    <div style="display: flex; justify-content: center; margin: 40px">
+      <div class="middle-line" style="width: 500px">
         <span class="h1">Education</span>
       </div>
     </div>
@@ -630,19 +920,17 @@
       <!-- Education ITEM 1: App Academy -->
       <li>
         <div class="project-item">
-          <div class="project-logo" style="border: 4px solid darkgray;">
+          <div class="project-logo" style="border: 4px solid darkgray">
             <a href="https://www.appacademy.io/" target="_blank"
               ><img
                 src="assetsv2/site_icons/appacademy.jpg"
                 alt="city_college_icon"
-                style="color: gray;"
+                style="color: gray"
             /></a>
           </div>
           <div class="project-description">
             <div class="project-header">
-              <div class="project-title">
-                App Academy
-              </div>
+              <div class="project-title">App Academy</div>
               <div class="project-header-links">
                 <a href="https://www.appacademy.io/" target="_blank">
                   <div class="project-link-item">
@@ -654,21 +942,41 @@
             </div>
             <div class="project-subtitle">
               Software Engineering
-              <span class="project-time">
-                2018
-              </span>
+              <span class="project-time"> 2018 </span>
             </div>
             <div class="project-address">
-              <div class="project-location">
-                New York, NY
-              </div>
+              <div class="project-location">New York, NY</div>
             </div>
             <div class="project-text">
-              App Academy, located both in San Francisco and New York, is a highly rated coding school designed to help its students learn tech and coding in a rigid, comprehensive 12-week program. The curriculum is known to help students kick start their tech careers by providing strong foundational knowledge while building on each concept to round out a qualified developer. The curriculum is not catered to every learning type, and it became increasingly important to select the right students who would succeed in this course.
-              <br><br>
-              This was the beginning of transitioning my career into web development and it was definitely one of the toughest institutions I ever enrolled in. The curriculum condensed the concepts of web development into 3 months with a total time spent of over 1,000 hours! One of the toughest and, albeit, successful aspects of App Academy revolved around learning this material in such a short time frame; it was a testament to see how quickly and efficiently my brain can learn. Graduating from this program was definitely one of my biggest accomplishments!
-              <br><br>
-              The people at App Academy were another important factor for my foundation at App Academy. Tasked with programming with another student every single day, I had the opportunity to learn about other’s learning styles, teaching, adapting and working collectively to finish the criteria for that day. Being in such a condensed environment, it was important to be supportive of each other. We were not graded based on the class, and we build a collective mindset in supporting one another. To this day, the people at App Academy remain great friends of mine!
+              App Academy, located both in San Francisco and New York, is a
+              highly rated coding school designed to help its students learn
+              tech and coding in a rigid, comprehensive 12-week program. The
+              curriculum is known to help students kick start their tech careers
+              by providing strong foundational knowledge while building on each
+              concept to round out a qualified developer. The curriculum is not
+              catered to every learning type, and it became increasingly
+              important to select the right students who would succeed in this
+              course.
+              <br /><br />
+              This was the beginning of transitioning my career into web
+              development and it was definitely one of the toughest institutions
+              I ever enrolled in. The curriculum condensed the concepts of web
+              development into 3 months with a total time spent of over 1,000
+              hours! One of the toughest and, albeit, successful aspects of App
+              Academy revolved around learning this material in such a short
+              time frame; it was a testament to see how quickly and efficiently
+              my brain can learn. Graduating from this program was definitely
+              one of my biggest accomplishments!
+              <br /><br />
+              The people at App Academy were another important factor for my
+              foundation at App Academy. Tasked with programming with another
+              student every single day, I had the opportunity to learn about
+              other’s learning styles, teaching, adapting and working
+              collectively to finish the criteria for that day. Being in such a
+              condensed environment, it was important to be supportive of each
+              other. We were not graded based on the class, and we build a
+              collective mindset in supporting one another. To this day, the
+              people at App Academy remain great friends of mine!
             </div>
 
             <div class="project-tools">
@@ -725,19 +1033,17 @@
       </li>
       <li>
         <div class="project-item">
-          <div class="project-logo" style="border: 4px solid lightblue;">
+          <div class="project-logo" style="border: 4px solid lightblue">
             <a href="https://www.ccny.cuny.edu/" target="_blank"
               ><img
                 src="assetsv2/site_icons/city_college.jpg"
                 alt="city_college_icon"
-                style="color: gray;"
+                style="color: gray"
             /></a>
           </div>
           <div class="project-description">
             <div class="project-header">
-              <div class="project-title">
-                CUNY: City College of New York
-              </div>
+              <div class="project-title">CUNY: City College of New York</div>
               <div class="project-header-links">
                 <a href="https://www.ccny.cuny.edu/" target="_blank">
                   <div class="project-link-item">
@@ -749,21 +1055,35 @@
             </div>
             <div class="project-subtitle">
               Environmental Engineering
-              <span class="project-time">
-                Class of 2015
-              </span>
+              <span class="project-time"> Class of 2015 </span>
             </div>
             <div class="project-address">
-              <div class="project-location">
-                New York, NY
-              </div>
+              <div class="project-location">New York, NY</div>
             </div>
             <div class="project-text">
-              Grove School of Engineering at the City College of New York houses some of the brightest students. Known for its engineering, this school provides excellent academic and research opportunities for inspired engineering. Additionally, I enjoyed the diverse group of people that I met along my way there. 
-              <br><br>
-              The growth that I had in college can be generalized into two major categories: academics and communication. I excelled academically where I enrolled in the Environmental Engineering curriculum, attended several graduate classes, enrolled in research programs, and graduated with the 3.5 GPA. However, it was my time spent with the people that really stood out. I met some great minds who challenged me to think differently and appreciate learning. I grew as a person and developed social and leadership skills. After spending years in the South Asian Talent Club and the National Society of Professional Engineers, I have taken administrative roles where I communicated and managed people. 
-              <br><br>
-              Working together is the deciding factor of any successful group projects, and my time at CCNY definitely helped me hone these skills. My time at college was definitely well spent. It helped me create strong bonds amongst my peers and helped me understand my love for continuous learning!
+              Grove School of Engineering at the City College of New York houses
+              some of the brightest students. Known for its engineering, this
+              school provides excellent academic and research opportunities for
+              inspired engineering. Additionally, I enjoyed the diverse group of
+              people that I met along my way there.
+              <br /><br />
+              The growth that I had in college can be generalized into two major
+              categories: academics and communication. I excelled academically
+              where I enrolled in the Environmental Engineering curriculum,
+              attended several graduate classes, enrolled in research programs,
+              and graduated with the 3.5 GPA. However, it was my time spent with
+              the people that really stood out. I met some great minds who
+              challenged me to think differently and appreciate learning. I grew
+              as a person and developed social and leadership skills. After
+              spending years in the South Asian Talent Club and the National
+              Society of Professional Engineers, I have taken administrative
+              roles where I communicated and managed people.
+              <br /><br />
+              Working together is the deciding factor of any successful group
+              projects, and my time at CCNY definitely helped me hone these
+              skills. My time at college was definitely well spent. It helped me
+              create strong bonds amongst my peers and helped me understand my
+              love for continuous learning!
             </div>
 
             <div class="project-tools">
@@ -796,7 +1116,10 @@
                       alt="canvas icon"
                     />
                     <span>Clubs</span>
-                    <span class="tooltiptext">President of National Society of Professional Engineers</span>
+                    <span class="tooltiptext"
+                      >President of National Society of Professional
+                      Engineers</span
+                    >
                   </div>
                 </li>
                 <li class="tooltip">
@@ -806,7 +1129,9 @@
                       alt="canvas icon"
                     />
                     <span>Clubs</span>
-                    <span class="tooltiptext">Secretary of South Asian Talent Club</span>
+                    <span class="tooltiptext"
+                      >Secretary of South Asian Talent Club</span
+                    >
                   </div>
                 </li>
               </ul>
@@ -817,57 +1142,48 @@
     </ul>
   </div>
 
-
   <div class="about-me">
     <div class="top-section">
-      <div class="contact-picture">
-        <img id="profile-pic" src="./images/profile_pic.png" alt="Profile Pic">
-      </div>
-      <div class="title">
-        Reach Out
-      </div>
-      <div>
-        Let's work together!
-      </div>
-      <br><br>
-      <div class="subtext">
-        Interested in any of the projects? Send a message or visit the links to learn more.
+      <!-- <div class="contact-picture">
+        <img
+          id="profile-pic"
+          src="./images/profile_pic.png"
+          alt="Profile Pic"
+        />
+      </div> -->
+      <div>Let's work together!</div>
+      <br /><br />
+      <div class="subtext" style="color: lightgray;">
+        Interested in any of the projects? Send a message or visit the links to
+        learn more.
       </div>
     </div>
-    <hr>
+    <hr />
     <div class="bottom-section">
-        <div class="contact-item">
-          <div class="list-header">
-            Location
-          </div>
-          <div>
-            New York City, NY
-          </div>
+      <div class="contact-item">
+        <div class="list-header">Location</div>
+        <div>New York City, NY</div>
+      </div>
+      <div class="contact-item">
+        <div class="list-header">Email</div>
+        <div class="contact-links">
+          <a href="mailto:tonmoy.lifazul@gmail.com">tonmoy.lifazul@gmail.com</a>
         </div>
-        <div class="contact-item">
-          <div class="list-header">
-            Email
-          </div>
-          <div class="contact-links">
-            <a href="mailto:tonmoy.lifazul@gmail.com">tonmoy.lifazul@gmail.com</a>
-          </div>
+      </div>
+      <div class="contact-item">
+        <div class="list-header">LinkedIn</div>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/lifazultonmoy/"
+            >https://www.linkedin.com/in/lifazultonmoy/</a
+          >
         </div>
-        <div class="contact-item">
-          <div class="list-header">
-            LinkedIn
-          </div>
-          <div class="contact-links">
-            <a href="https://www.linkedin.com/in/lifazultonmoy/">https://www.linkedin.com/in/lifazultonmoy/</a>
-          </div>
+      </div>
+      <div class="contact-item">
+        <div class="list-header">Github</div>
+        <div class="contact-links">
+          <a href="https://github.com/tonmoyl">https://github.com/tonmoyl</a>
         </div>
-        <div class="contact-item">
-          <div class="list-header">
-            Github
-          </div>
-          <div class="contact-links">
-            <a href="https://github.com/tonmoyl">https://github.com/tonmoyl</a>
-          </div>
-        </div>
+      </div>
     </div>
   </div>
 </html>
