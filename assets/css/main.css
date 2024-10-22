@@ -1365,7 +1365,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #529885;
+			background-color: #e3e7ff;
 		}
 
 		input[type="button"].style1,
@@ -1373,7 +1373,7 @@
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #6ed2b7 url("images/overlay.png");
+			background: #3F51B5 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1382,7 +1382,7 @@
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #529885;
+				background-color: #e3e7ff;
 			}
 
 			input[type="button"].style1:active,
@@ -1491,7 +1491,7 @@
 /* Feature List */
 
 	.feature-list h3 {
-		color: #6ed2b7 !important;
+		color: #3F51B5 !important;
 	}
 
 		.feature-list h3:before {
@@ -1567,13 +1567,13 @@
 			}
 
 		.wrapper.style1 {
-			background: #6ed2b7 url("images/overlay.png");
+			background: #3F51B5 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #6ed2b7 url("images/overlay.png");
+				background: #3F51B5 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -1741,7 +1741,7 @@
 	}
 
 		#highlights .highlight h3 {
-			color: #6ed2b7;
+			color: #3F51B5;
 		}
 
 /* Copyright */

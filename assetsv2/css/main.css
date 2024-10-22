@@ -212,22 +212,22 @@ button:focus {
 }
 
 .tab button:hover {
-  background-color: #4d8e7c;
+  background-color: #2d3562;
   cursor: pointer;
 }
 
 .tab .tablinks {
-  background-color: #6ed2b7;
+  background-color: #3F51B5;
   color: white;
-  border-left: 0.5px solid #4d8e7c;
-  border-right: 0.5px solid #4d8e7c;
-  border-top: 0.5px solid #6ed2b7;
-  border-bottom: 0.5px solid #6ed2b7;
+  border-left: 0.5px solid #2d3562;
+  border-right: 0.5px solid #2d3562;
+  border-top: 0.5px solid #3F51B5;
+  border-bottom: 0.5px solid #3F51B5;
   padding: 10px 20px;
 }
 
 .tab button.active {
-  background-color: #4d8e7c;
+  background-color: #2d3562;
 }
 
 
@@ -244,7 +244,7 @@ button:focus {
 }
 
 .project-item-list > li{
-  border-bottom: 2px solid #6ed2b7;
+  border-bottom: 2px solid #3F51B5;
 }
 
 .project-item {
@@ -306,7 +306,7 @@ button:focus {
 
 .project-title {
   font-size: 24px;
-  color: #6ed2b7;
+  color: #3F51B5;
   margin-bottom: 10px;
 }
 
@@ -330,8 +330,8 @@ button:focus {
 }
 
 .project-link-item:hover {
-  color: #6ed2b7;
-  background-color: #dffffb;
+  color: #3F51B5;
+  background-color: #e3e7ff;
 }
 
 .project-header-links a,
@@ -378,7 +378,7 @@ button:focus {
 
 .project-tools-header {
   font-size: 18px;
-  color: #6ed2b7;
+  color: #3F51B5;
   font-weight: 400;
   margin: 6px 0;
 }
@@ -398,7 +398,7 @@ button:focus {
   padding: 10px;
   border-radius: 100%;
   background-color: #f1f1f1;
-  border: 1px solid #6ed2b7;
+  border: 1px solid #3F51B5;
 }
 
 .project-tool-item img {
@@ -456,15 +456,15 @@ button:focus {
 }
 
 .about-me .list-header {
-  color: #6ed2b7;
+  color: #3F51B5;
   font-weight: 600;
 }
 
 .contact-picture img {
-  border-radius: 50%;
+  border-radius: 4%;
   width: 200px;
   height: 200px;
-  border: 10px solid #90c4c4;
+  border: 2px solid #90c4c4;
 }
 
 .contact-links a{

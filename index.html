@@ -15,22 +15,20 @@
   <div style="position: relative">
     <div
       style="
-        background-color: #4d8e7c;
+        background-color: #2d3562;
         position: absolute;
         height: 100%;
         width: 100%;
       "
     >
       <img
-        src="images/programming_background.jpg"
+        src="images/programming_background_v2.png"
         alt="Girl in a jacket"
         width="500"
         height="600"
         style="
           width: 100%;
           height: 100%;
-          filter: blur(5px);
-          -webkit-filter: blur(5px);
         "
       />
     </div>
@@ -39,35 +37,49 @@
     >
       <div
         style="
-          position: absolute;
           margin: auto;
+          margin-top: 60px;
           left: 0;
           right: 0;
           top: 14%;
+          display: flex;
+          justify-content: center;
           text-align: center;
         "
       >
-        <div class="introduction-header">Hi, I'm Lifazul!</div>
-        <div class="contact-picture">
-          <img
-            id="profile-pic"
-            src="./images/profile_pic_v2.jpg"
-            alt="Profile Pic"
-          />
-        </div>
+        <div
+        style="
+          background-color: #022842a1;
+          border-radius: 10px;
+          padding: 20px;
+        "
+        
+        >
+          <div style=>
 
-        <div class="h1" style="color: white; margin-top: 20px">
-          Lifazul Tonmoy
-        </div>
-        <div class="resume-link-container">
-          <div class="resume-link">
-            <a href="./resume.pdf" target="_blank">Resume</a>
-            <div>|</div>
-            <a href="https://www.linkedin.com/in/lifazultonmoy/" target="_blank"
-              >LinkedIn</a
-            >
-            <div>|</div>
-            <a href="mailto:tonmoy.lifazul@gmail.com">Email</a>
+          </div>
+          <div class="introduction-header">Hi, I'm Lifazul!</div>
+          <div class="contact-picture">
+            <img
+              id="profile-pic"
+              src="./images/profile_pic_v3.png"
+              alt="Profile Pic"
+            />
+          </div>
+
+          <div class="h1" style="color: white; margin-top: 20px">
+            Lifazul Tonmoy
+          </div>
+          <div class="resume-link-container">
+            <div class="resume-link">
+              <a href="./resumeV2.pdf" target="_blank">Resume</a>
+              <div>|</div>
+              <a href="https://www.linkedin.com/in/lifazultonmoy/" target="_blank"
+                >LinkedIn</a
+              >
+              <div>|</div>
+              <a href="mailto:tonmoy.lifazul@gmail.com">Email</a>
+            </div>
           </div>
         </div>
       </div>
@@ -94,6 +106,82 @@
     </div>
 
     <ul class="project-item-list">
+      <!-- PROJECT ITEM 1: Amazon -->
+      <li>
+        <div class="project-item">
+          <div class="project-logo" style="border: 4px solid orange">
+            <a href="https://advertising.amazon.com/solutions/products/amazon-dsp" target="_blank"
+              ><img
+                src="assetsv2/site_icons/amazon_logo.png"
+                alt="amazon_logo_icon"
+                style="color: gray; padding: 12px 6px;"
+            /></a>
+          </div>
+          <div class="project-description">
+            <div class="project-header">
+              <div class="project-title">Amazon DSP</div>
+              <div class="project-header-links">
+                <a href="https://advertising.amazon.com/solutions/products/amazon-dsp" target="_blank">
+                  <div class="project-link-item">
+                    <i class="material-icons">public</i>
+                    <span>web</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="project-subtitle">
+              RecruitiFi
+              <span class="project-time"> June 2021 - PRESENT </span>
+            </div>
+            <div class="project-address">
+              <div class="project-location">New York, NY</div>
+            </div>
+            <div class="project-text">
+Language Compatibility Project: As the Technical Lead for a team of over 15 engineers, I spearheaded the development of a language selection and translation feature for codebases in React, JSP, and Java. This initiative successfully provided translations for 32% of users whose primary language is not English, significantly enhancing user accessibility and engagement.
+<br></br>
+UI Refresh for DSP: In my role as Technical Lead Engineer, I strategically planned and executed the overhaul of 80% of the components within the list and metrics page for the Demand-Side Platform (DSP). This comprehensive update improved the user interface, resulting in a more intuitive and efficient user experience.
+<br></br>
+Guidance Feature Enhancement: As the Technical Front-End Lead Engineer, I led a major UI overhaul for the guidance feature. This project resulted in a remarkable increase in user interaction, achieving a more than 20x boost in click-through rates, thereby enhancing user engagement and satisfaction.
+            </div>
+
+            <div class="project-tools">
+              <div class="project-tools-header">Skills</div>
+              <ul class="project-tools-list">
+                <li class="tooltip">
+                  <div class="project-tool-item">
+                    <img
+                      src="assetsv2/tools_icons/frontend.svg"
+                      alt="css icon"
+                    />
+                    <span>frontend</span>
+                    <span class="tooltiptext">Frontend</span>
+                  </div>
+                </li>
+                <li class="tooltip">
+                  <div class="project-tool-item">
+                    <img
+                      src="assetsv2/tools_icons/testing.svg"
+                      alt="javascript icon"
+                    />
+                    <span>testing</span>
+                    <span class="tooltiptext">Unit & End-to-end testing</span>
+                  </div>
+                </li>
+                <li class="tooltip">
+                  <div class="project-tool-item">
+                    <img
+                      src="assetsv2/tools_icons/javascript.svg"
+                      alt="javascript icon"
+                    />
+                    <span>javascript</span>
+                    <span class="tooltiptext">Javascript & Typescript</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
       <!-- PROJECT ITEM 1: RecruitiFi -->
       <li>
         <div class="project-item">
@@ -634,6 +722,77 @@
       </div>
     </div>
     <ul class="project-item-list">
+      <!-- Work Experience ITEM 1: Amazon -->
+      <li>
+        <div class="project-item">
+          <div class="project-logo" style="border: 4px solid lightblue">
+            <a href="https://advertising.amazon.com/solutions/products/amazon-dsp" target="_blank"
+              ><img
+                src="assetsv2/site_icons/amazon_logo.png"
+                alt="smart_rocket_icon"
+                style="color: gray"
+            /></a>
+          </div>
+          <div class="project-description">
+            <div class="project-header">
+              <div class="project-title">Senior Frontend Developer</div>
+              <div class="project-header-links">
+                <a href="https://advertising.amazon.com/solutions/products/amazon-dsp" target="_blank">
+                  <div class="project-link-item">
+                    <i class="material-icons">public</i>
+                    <span>web</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="project-subtitle">
+              Amazon
+              <span class="project-time"> June 2021 - present </span>
+            </div>
+            <div class="project-address">
+              <div class="project-location">New York, NY</div>
+            </div>
+            <div class="project-text">
+              Amazon DSP (Demand-Side Platform) is a sophisticated advertising platform that allows advertisers to programmatically buy display, video, 
+              and audio ads both on and off Amazon. It provides advertisers with the tools to reach a wide audience through Amazon's extensive network 
+              of websites and apps, as well as third-party exchanges. With Amazon DSP, advertisers can leverage Amazon's rich shopper insights to target 
+              audiences more effectively, optimize their campaigns in real-time, and measure performance with detailed reporting.
+              <br /><br />
+              As a Senior Frontend Developer at Amazon, I excelled in the role of Tech Lead, where I successfully managed and mentored a team that ranged of a multitude of engineers. 
+              My leadership ensured timely project delivery while fostering a culture of excellence and continuous improvement. 
+              By cultivating strong cross-functional relationships with Product Managers and UX/UI Designers, 
+              I drove innovative solutions that adhered to project timelines. 
+              My ability to guide and inspire my team, coupled with my commitment to collaboration, played a crucial role in advancing our projects and achieving our goals.
+            </div>
+
+            <div class="project-tools">
+              <div class="project-tools-header">Skills</div>
+              <ul class="project-tools-list">
+                <li class="tooltip">
+                  <div class="project-tool-item">
+                    <img
+                      src="assetsv2/tools_icons/frontend.svg"
+                      alt="css icon"
+                    />
+                    <span>frontend</span>
+                    <span class="tooltiptext">Frontend</span>
+                  </div>
+                </li>
+                <li class="tooltip">
+                  <div class="project-tool-item">
+                    <img
+                      src="assetsv2/tools_icons/testing.svg"
+                      alt="javascript icon"
+                    />
+                    <span>testing</span>
+                    <span class="tooltiptext">Unit & End-to-end testing</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
       <!-- Work Experience ITEM 1: RecruitiFi -->
       <li>
         <div class="project-item">
@@ -659,25 +818,19 @@
             </div>
             <div class="project-subtitle">
               RecruitiFi
-              <span class="project-time"> April 2019 - PRESENT </span>
+              <span class="project-time"> April 2019 - May 2021 </span>
             </div>
             <div class="project-address">
               <div class="project-location">New York, NY</div>
             </div>
             <div class="project-text">
-              RecruitiFi is a startup dedicated to connect hiring managers and
-              recruiting agencies. Being a developer in RecruitiFi, I
-              collaborated along with a cohesive team that handled the majority
-              of application’s main functions, which encompassed tasks in the
-              frontend, backend, testing and database. The team all worked to
-              completely overhaul the previous versions of the site and develop
-              a new product feature in TALK Talent.
+              RecruitiFi is an innovative startup focused on bridging the gap between hiring managers and recruiting agencies. As a developer at RecruitiFi, 
+              I was part of a dynamic and cohesive team responsible for managing the core functionalities of the application, including frontend, backend, testing, 
+              and database tasks. Our team successfully overhauled previous versions of the site and introduced a new product feature, TALK Talent.
               <br /><br />
-              I believe the quality of our work and development has been
-              successful in terms of individual growth and improvements in the
-              application. Working on the frontend and backend expanded my
-              overall knowledge in development while also fostering strong bonds
-              amongst teammates to tackle these big product features!
+              The quality of our work at RecruitiFi was evident in both the application's enhancements and our personal development. My involvement in both 
+              frontend and backend development significantly broadened my technical expertise. Additionally, collaborating on major product features 
+              fostered strong bonds within our team, enabling us to effectively tackle complex challenges and drive innovation.
             </div>
 
             <div class="project-tools">
@@ -760,28 +913,19 @@
               <div class="project-location">New York, NY</div>
             </div>
             <div class="project-text">
-              App Academy, located both in San Francisco and New York, is a
-              highly rated coding school designed to help its students learn
-              tech and coding in a rigid, comprehensive 12-week program. The
-              curriculum is known to help students kick start their tech careers
-              by providing strong foundational knowledge while building on each
-              concept to round out a qualified developer. The curriculum is not
-              catered to every learning type, and it became increasingly
-              important to select the right students who would succeed in this
-              course.
+              App Academy, with locations in San Francisco and New York, is a top-tier coding school renowned for its intensive 12-week program. 
+              This highly acclaimed curriculum is meticulously designed to equip students with a robust foundation in technology and coding, 
+              effectively launching their careers in tech. By progressively building on each concept, the program shapes students into well-rounded 
+              and proficient developers. Given its demanding nature, selecting students who are most likely to thrive is crucial.
               <br /><br />
-              This was an integral part time job that kick started my career as
-              a Software Developer. Handling the interview process solidified my
-              understanding of coding concepts and strengthened my communication
-              skills to effectively explain ideas and concepts. Alternatively,
-              it was also interesting to learn how students vary in their form
-              of thinking and approach when given similar problems.
+              My role at App Academy was pivotal in launching my career as a Software Developer. Being involved in the interview process not only 
+              solidified my understanding of coding concepts but also enhanced my communication skills, enabling me to articulate complex ideas effectively. 
+              It was fascinating to observe the diverse problem-solving approaches and thought processes of prospective students, 
+              highlighting the variety in learning styles and cognitive approaches.
               <br /><br />
-              The continual programs for App Academy both helped them and me
-              grow into better developers. Also, It was great seeing these
-              admitted students over the months to see how much their thinking
-              evolved and grew as they transitioned into an important part of
-              their careers.
+              The ongoing programs at App Academy facilitated growth for both the students and myself, enhancing our capabilities as developers. 
+              It was incredibly rewarding to witness the transformation of admitted students over the months as they evolved and matured in their thinking, 
+              ultimately becoming integral members of the tech community. Seeing their progress reinforced the importance of a strong foundational education in technology.
             </div>
 
             <div class="project-tools">
@@ -856,26 +1000,20 @@
               <div class="project-location">New York, NY</div>
             </div>
             <div class="project-text">
-              The Department of Design and Construction is the largest project
-              management company for the New York City government that mainly
-              handles over thousands of projects related to libraries, courts,
-              and other civic facilities.
+              The Department of Design and Construction (DDC) is the project management organization for the New York City government, 
+              overseeing thousands of projects involving libraries, courts, and other civic facilities.
               <br /><br />
-              My focus at this job was related to water contamination in the
-              groundwater level. As a project manager, coordination with major
-              sections of the departments were key in order for the project to
-              be fully successful. Engineering audit, accounting team, client,
-              and laborers all had different values and agendas and it was
-              important to realize the varying parties inputs and perspectives.
-              As a project manager, I had to bridge these people together to
-              make sure they understand the steps required so that all the
-              parties can be successful in their fields.
+               In my role as a Project Manager, I specialized in addressing water contamination issues at the groundwater level. 
+               Successful project execution required coordination across various departmental divisions, including engineering audits, 
+               accounting, client relations, and labor teams. Each group brought distinct values and objectives, requiring a comprehensive 
+               understanding of their diverse perspectives.
+               My primary responsibility was to facilitate effective communication and collaboration among these stakeholders, 
+               ensuring that all parties were aligned and informed about the necessary steps for achieving success in their respective areas.
               <br /><br />
-              The experience was very good in becoming a project manager,
-              allowing me to develop communication and management skills. DDC
-              has a collection of PMs who are very successful in their
-              profession and I am happy to have learned a lot of these skills
-              that can transfer over to any professional setting!
+              This role significantly enhanced my communication and management skills, 
+              providing invaluable experience in project management. At DDC, I had the opportunity to learn from a team of highly successful 
+              project managers, equipping me with transferable skills that are applicable in any professional setting. 
+              I am grateful for the knowledge and expertise I gained during my time at DDC.
             </div>
 
             <div class="project-tools">
@@ -958,25 +1096,18 @@
               important to select the right students who would succeed in this
               course.
               <br /><br />
-              This was the beginning of transitioning my career into web
-              development and it was definitely one of the toughest institutions
-              I ever enrolled in. The curriculum condensed the concepts of web
-              development into 3 months with a total time spent of over 1,000
-              hours! One of the toughest and, albeit, successful aspects of App
-              Academy revolved around learning this material in such a short
-              time frame; it was a testament to see how quickly and efficiently
-              my brain can learn. Graduating from this program was definitely
-              one of my biggest accomplishments!
+              Enrolling in App Academy marked a pivotal transition in my career towards web development. 
+              It was undoubtedly one of the most challenging yet rewarding educational experiences I've undertaken. 
+              The curriculum condensed over 1,000 hours of web development concepts into just three months, 
+              testing my ability to rapidly and efficiently absorb new information. 
+              Successfully completing this rigorous program stands as one of my proudest achievements.
               <br /><br />
-              The people at App Academy were another important factor for my
-              foundation at App Academy. Tasked with programming with another
-              student every single day, I had the opportunity to learn about
-              other’s learning styles, teaching, adapting and working
-              collectively to finish the criteria for that day. Being in such a
-              condensed environment, it was important to be supportive of each
-              other. We were not graded based on the class, and we build a
-              collective mindset in supporting one another. To this day, the
-              people at App Academy remain great friends of mine!
+              The community at App Academy played a crucial role in my development. 
+              Daily pair programming with fellow students allowed me to experience diverse learning styles 
+              and refine my skills in teaching, adapting, and collaborating to meet daily objectives. 
+              In such an intensive environment, mutual support was essential. 
+              We fostered a collective mindset, emphasizing collaboration over competition. 
+              The friendships I formed at App Academy continue to be a valuable part of my professional network.
             </div>
 
             <div class="project-tools">
@@ -1061,29 +1192,22 @@
               <div class="project-location">New York, NY</div>
             </div>
             <div class="project-text">
-              Grove School of Engineering at the City College of New York houses
-              some of the brightest students. Known for its engineering, this
-              school provides excellent academic and research opportunities for
-              inspired engineering. Additionally, I enjoyed the diverse group of
-              people that I met along my way there.
+              Grove School of Engineering at the City College of New York is known for its engineering, where
+              this school provides excellent academic and research opportunities. 
               <br /><br />
-              The growth that I had in college can be generalized into two major
-              categories: academics and communication. I excelled academically
-              where I enrolled in the Environmental Engineering curriculum,
-              attended several graduate classes, enrolled in research programs,
-              and graduated with the 3.5 GPA. However, it was my time spent with
-              the people that really stood out. I met some great minds who
-              challenged me to think differently and appreciate learning. I grew
-              as a person and developed social and leadership skills. After
-              spending years in the South Asian Talent Club and the National
-              Society of Professional Engineers, I have taken administrative
-              roles where I communicated and managed people.
+              My journey at CCNY can be categorized into two key areas: academic excellence and personal development. 
+              Academically, I thrived in the Environmental Engineering curriculum, participated in graduate-level courses, 
+              engaged in research programs, and graduated with a commendable 3.5 GPA. 
+              However, it was the interactions with my peers and mentors that truly enriched my experience. 
+              I encountered brilliant minds that challenged my perspectives and fostered a deep appreciation for learning.
               <br /><br />
-              Working together is the deciding factor of any successful group
-              projects, and my time at CCNY definitely helped me hone these
-              skills. My time at college was definitely well spent. It helped me
-              create strong bonds amongst my peers and helped me understand my
-              love for continuous learning!
+              Throughout my college years, I developed essential social and leadership skills. 
+              My involvement with the South Asian Talent Club and the National Society of Professional Engineers 
+              allowed me to take on administrative roles where I effectively communicated and managed teams. 
+              These experiences underscored the importance of collaboration in achieving success in group projects.
+              <br /><br />
+              My time at CCNY was invaluable, helping me forge strong connections with peers and fueling my passion for lifelong learning. 
+              The skills and relationships I developed during this period have been instrumental in shaping my personal and professional journey.
             </div>
 
             <div class="project-tools">
